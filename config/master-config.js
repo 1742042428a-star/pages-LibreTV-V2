@@ -28,7 +28,7 @@ const MASTER_CONFIG = {
     
     // 📱 UI配置
     ui: {
-        title: '喜喜-LibreTV',
+        title: "喜喜小站",
         loginTitle: 'LibreTV 访问验证',
         loginPrompt: '请输入访问密码',
         theme: 'dark'
