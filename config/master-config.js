@@ -28,7 +28,7 @@ const MASTER_CONFIG = {
     
     // 📱 UI配置
     ui: {
-        title: 'LibreTV',
+        title: '喜喜-LibreTV',
         loginTitle: 'LibreTV 访问验证',
         loginPrompt: '请输入访问密码',
         theme: 'dark'
@@ -258,4 +258,5 @@ if (typeof window !== 'undefined' && (window.location.hostname === 'localhost' |
     console.log('👤 用户名:', MASTER_CONFIG.auth.username);
     console.log('🔒 密码保护:', MASTER_CONFIG.auth.enabled ? '已启用' : '已禁用');
     console.log('🌐 代理调试:', MASTER_CONFIG.proxy.debug ? '已启用' : '已禁用');
+
 }
